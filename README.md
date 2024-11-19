@@ -106,6 +106,14 @@ npx playwright install
 sudo npx playwright install-deps
 ```
 
+Using the current package in the project a simple.
+
+```shell
+npm i
+```
+
+Should install everything.
+
 A basic script that opens a dynamic page is as follows:
 
 ```javascript
