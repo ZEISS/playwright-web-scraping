@@ -1,0 +1,21 @@
+{
+    "name": "playwright-web-scraping",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "/bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node ./bin/index.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "playwright": "^1.49.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-github": "^5.0.2"
+    }
+}

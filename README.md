@@ -53,7 +53,7 @@ In the case of Node.js, the launch function can accept an optional parameter of 
 const playwright = require("playwright")
  
 (async() =>{
- for (const browserType of ['chromium', 'firefox',  'webkit']){
+ for (const browserType of ['chromium']){
    const launchOptions = {
        headless: false,
        proxy: {
@@ -99,12 +99,19 @@ npm init -y
 npm install playwright
 ```
 
+For install in Node.js you should do the following.
+
+```shell
+npx playwright install
+sudo npx playwright install-deps
+```
+
 A basic script that opens a dynamic page is as follows:
 
 ```javascript
 const playwright = require("playwright")
 (async() =>{
-for (const browserType of ['chromium', 'firefox',  'webkit']){
+for (const browserType of ['chromium']){
    const browser = await playwright[browserType].launch()
    const context = await browser.newContext()
    const page = await context.newPage()
@@ -208,7 +215,7 @@ Finally, the innerText attribute can be used to extract the data from each data 
 ```javascript
 const playwright = require("playwright")
 (async() =>{
-for (const browserType of ['chromium', 'firefox',  'webkit']){
+for (const browserType of ['chromium']){
    const launchOptions = {
        headless: false,
        proxy: {
