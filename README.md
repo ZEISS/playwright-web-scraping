@@ -2,6 +2,8 @@
 
 [<img src="https://img.shields.io/static/v1?label=&message=Playwright&color=brightgreen" />](https://github.com/topics/playwright) [<img src="https://img.shields.io/static/v1?label=&message=Web%20Scraping&color=important" />](https://github.com/topics/web-scraping)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ZEISS/playwright-web-scraping?quickstart=1)
+
 - [Web Scraping With Playwright](#web-scraping-with-playwright)
   - [Support for proxies in Playwright](#support-for-proxies-in-playwright)
     - [Node.js](#nodejs)
